@@ -31,12 +31,38 @@ main {
 .card-tarefas {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin: auto;
     padding: 50px;
-    border: auto;
+    border: 100px solid #CFCECE;
     background-color: #FFFFFF;
+}   
+
+.nome-tarefa {
+    display: flex;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+}
+
+.descricao-tarefa {
+    display: flex;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+}
+
+.prioridade-tarefa {
+    display: flex;
+    font-size: 30px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
 }   
 
 footer {
