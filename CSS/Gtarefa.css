@@ -8,20 +8,18 @@ main {
 }
 
 .titulo-gerenciador {
-    display: flex;
     font-size: 50px;
     font-family: "Roboto Condensed";
     font-weight: bold;
     color: #06517f;
-    margin: auto;
+    margin: 0px 0px 10px 0px;
 }
 
 .descricao-gerenciador {
-    display: flex;
     font-size: 20px;
     font-family: "Roboto Condensed";
     color: #021E2F;
-    margin: auto;
+    margin: 0px 0px 20px 0px;
 }
 
 .card-tarefas {
