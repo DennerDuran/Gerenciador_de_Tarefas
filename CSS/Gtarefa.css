@@ -5,7 +5,7 @@ header {
 main {
     background-color: #CFCECE;
     width: 100%;
-    height: 90vh; /*entender o que é vh depois */
+    height: 100vh; /*entender o que é vh depois */
 }
 
 .titulo-gerenciador {
@@ -13,6 +13,7 @@ main {
     font-family: "Roboto Condensed";
     font-weight: bold;
     color: #06517f;
+    line-height: 1.2;
     margin: 0px 0px 10px 20px;
 }
 
@@ -20,6 +21,7 @@ main {
     font-size: 20px;
     font-family: "Roboto Condensed";
     color: #021E2F;
+    line-height: 1.5;
     margin: 0px 0px 20px 40px;
 }
 
@@ -27,9 +29,13 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
     background-color: #FFFFFF;
-    margin: 0px 0px 10px 600px; /*--configurar depois */
+    max-width: 900px;
+    margin: 0 auto;
+    height: 50vh;
+    border: 10px groove #06517F;
+    border-radius: 10px;
+    padding: 20px;
 }   
 
 .nome-tarefa {
