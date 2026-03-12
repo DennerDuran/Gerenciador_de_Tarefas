@@ -1,13 +1,13 @@
 /* Estilo do cabeçalho */
 header {
-    background-color: #06517F;
+    background-color: #000000;
     height: 50px;
 }
 
 /* Estilo do corpo da página */
 
 main {
-    background-color: #CFCECE;
+    background-color: #f5f5f5;
     width: 100%;
     height: 100vh; /*entender o que é vh depois */
 }
@@ -18,17 +18,17 @@ main {
     font-size: 50px;
     font-family: "Roboto Condensed";
     font-weight: bold;
-    color: #06517f;
+    color: #000000;
     line-height: 1.2;
-    margin: 0px 0px 10px 20px;
+    margin: 0px 0px 10px 530px;
 }
 
 .descricao-gerenciador {
     font-size: 20px;
     font-family: "Roboto Condensed";
-    color: #021E2F;
+    color: #000000;
     line-height: 1.5;
-    margin: 0px 0px 20px 40px;
+    margin: 0px 0px 20px 530px;
 }
 
 /* Estilo do card */
@@ -41,44 +41,47 @@ main {
     max-width: 900px;
     margin: 0 auto;
     height: 50vh;
-    border: 10px groove #06517F;
+    border: none;
     border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     padding: 20px;
 }   
 
-/* Estilo dos textos do card */
+/* Estilo dos formulários */
 
-.nome-tarefa {
-    display: flex;
-    font-size: 30px;
+form{ 
+    display: grid;
+    margin: 0px 0px 300px 0px;
+}
+
+label {
+    display: block;
+    font-size: 20px;
     font-family: "Roboto Condensed";
     font-weight: bold;
-    color: #06517F;
+    color: #000000;
+    margin: 0px 0px 3px 0px;
     padding: 10px;
 }
 
-.descricao-tarefa {
-    display: flex;
-    font-size: 30px;
-    font-family: "Roboto Condensed";
-    font-weight: bold;
-    color: #06517F;
-    padding: 10px;
+input {
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    background-color: #e8e6e6;
+    margin: 0px 0px 20px 0px;
 }
 
-.prioridade-tarefa {
-    display: flex;
-    font-size: 30px;
-    font-family: "Roboto Condensed";
-    font-weight: bold;
-    color: #06517F;
-    padding: 10px;
-}   
+input:hover {
+    background-color: #dcd9d9;
+}
 
 
 /* Estilo do rodapé */
 
 footer {
     height: 30px;
-    background-color: #021E2F;
+    background-color: #000000;
 }
