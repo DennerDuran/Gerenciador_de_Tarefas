@@ -34,9 +34,6 @@ main {
 /* Estilo do card */
 
 .card-tarefas {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #FFFFFF;
     max-width: 900px;
     margin: 0 auto;
@@ -49,9 +46,8 @@ main {
 
 /* Estilo dos formulários */
 
-form{ 
+form { 
     display: grid;
-    margin: 0px 0px 300px 0px;
 }
 
 label {
@@ -78,6 +74,25 @@ input:hover {
     background-color: #dcd9d9;
 }
 
+#input-nome-tarefa {
+    height: 2vh;
+}
+#input-descricao-tarefa {
+    height: 5vh;
+}
+
+input::placeholder {
+    color: #474747;
+    font-family: "Roboto Condensed";
+    font-style: italic;
+    padding: 10px 20px 10px 20px;
+}
+
+input:focus {
+    border-color: #000000;
+    box-shadow: 0 3px 10px rgb(0, 0, 0);
+    outline: none;
+}
 
 /* Estilo do rodapé */
 
