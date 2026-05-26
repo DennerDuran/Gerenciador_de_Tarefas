@@ -1,0 +1,6 @@
+.vs/
+*.vsidx
+*.sqlite
+applicationhost.config
+bin/
+obj/
